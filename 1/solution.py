@@ -1,5 +1,4 @@
 
-
 with open('data.txt', 'r') as fh:
     # Part 1
     data = [int(line.strip()) for line in fh.readlines()]
